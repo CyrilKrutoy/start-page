@@ -1,0 +1,80 @@
+body { 
+    background-image: url(https://cdn.pixabay.com/photo/2014/09/07/21/52/urban-438393_960_720.jpg);
+    background-size: 100%;
+   }
+
+
+.container {
+    width:400px;
+    height: 600px;
+    background-color: rgba(221, 220, 220, 0.801);
+    margin: 200px auto 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button { 
+    color: rgb(0, 0, 0); 
+    margin-left: 350px;
+    margin-top: 10px;
+   }
+
+.container svg {
+    margin-right: 20px;
+    margin-top: -80px;
+    background-color: rgba(221, 220, 220, 0.918);
+    border-radius: 60px ;  
+    border-color: #afb1b1;
+    border-style: solid; 
+    }
+
+.info {
+    background-color: rgba(57, 57, 255, 0.753);
+    color: white;
+    text-align: center ;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif ;
+    height:50px;
+    width:300px;
+    margin: 50px auto 0 auto;
+    padding-top:20px;
+    border-radius:5px;
+}
+
+.choice {
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px ; 
+    }
+
+    hr{
+   margin-top: 0px;
+    }
+
+h5{
+    font-size: 17px;   
+}
+
+
+input[type="email"], input[type="password"] {
+    margin: 40px auto 0 auto;
+    width:250px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px ; 
+}
+
+.dws-submit {
+    padding: 13px 30px ;
+    background-color: rgba(22, 219, 170, 0.89);
+    color: white;
+    font-size: 16px;
+    margin: 50px auto 0 auto;
+}
+.forgot { 
+    color: rgb(128, 125, 125);
+    margin-left: 150px;
+    }
+.forgot :hover { 
+    text-decoration: none;
+}
